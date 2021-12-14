@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="test">
+	<test name="chrome" enabled="false">
+		<parameter name="browser" value="chrome" />
+		<classes>
+		<class name="tests.TC_LoginTestPS_001" />
+		</classes>
+	</test>
+	<test name="Firefox" enabled="true">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="tests.TC_LoginTestPS_001" />
+		</classes>
+	</test>
+	<test name="edge" enabled="false">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="tests.TC_LoginTestPS_001" />
+		</classes>
+	</test>
+	<test name="oginFire" enabled="false">
+		<parameter name="browser" value="Safari" />
+		<classes>
+			<class name="tests.TC_LoginTestPS_001" />
+		</classes>
+	</test>
+</suite>

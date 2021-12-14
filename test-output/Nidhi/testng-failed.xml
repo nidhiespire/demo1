@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Nidhi]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NidhiLoginFire(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="mursion.testCases.TC_LoginTestPS_001">
+        <methods>
+          <include name="loginTestPS"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- mursion.testCases.TC_LoginTestPS_001 -->
+    </classes>
+  </test> <!-- NidhiLoginFire(failed) -->
+</suite> <!-- Failed suite [Nidhi] -->
