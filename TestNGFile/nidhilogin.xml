@@ -8,7 +8,7 @@
 		<class name="tests.TC_LoginTestPS_001" />
 		</classes>
 	</test>
-	<test name="Firefox" enabled="true">
+	<test name="Firefox" enabled="false">
 		<parameter name="browser" value="Firefox" />
 		<classes>
 			<class name="tests.TC_LoginTestPS_001" />
