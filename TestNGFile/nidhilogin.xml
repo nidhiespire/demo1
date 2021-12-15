@@ -2,16 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="test">
+	
 	<test name="chrome" enabled="true">
 		<parameter name="browser" value="chrome" />
 		<classes>
-		<class name="tests.TC_LoginTestPS_001" />
+			<class name="tests.TC_HomeSolPS_002" />
 		</classes>
 	</test>
-	<test name="Firefox" enabled="false">
-		<parameter name="browser" value="Firefox" />
+    <test name="Firefox" enabled="true">
+		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="tests.TC_LoginTestPS_001" />
+		<class name="tests.TC_LoginTestPS_001" />
 		</classes>
 	</test>
 	<test name="edge" enabled="false">
@@ -26,4 +27,8 @@
 			<class name="tests.TC_LoginTestPS_001" />
 		</classes>
 	</test>
+
+
+
+
 </suite>

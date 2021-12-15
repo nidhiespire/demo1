@@ -1,32 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="test" duration-ms="85780" started-at="2021-12-15T13:16:44 GMT+05:30" finished-at="2021-12-15T13:18:09 GMT+05:30">
+  <suite name="test" duration-ms="34342" started-at="2021-12-15T20:03:19 GMT+05:30" finished-at="2021-12-15T20:03:53 GMT+05:30">
     <groups>
     </groups>
-    <test name="Firefox" duration-ms="85780" started-at="2021-12-15T13:16:44 GMT+05:30" finished-at="2021-12-15T13:18:09 GMT+05:30">
-      <class name="tests.TC_LoginTestPS_001">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.TC_LoginTestPS_001@1649b0e6]" name="setUp" is-config="true" duration-ms="22233" started-at="2021-12-15T13:16:44 GMT+05:30" finished-at="2021-12-15T13:17:06 GMT+05:30">
+    <test name="chrome" duration-ms="9101" started-at="2021-12-15T20:03:19 GMT+05:30" finished-at="2021-12-15T20:03:28 GMT+05:30">
+      <class name="tests.TC_HomeSolPS_002">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.TC_HomeSolPS_002@1649b0e6]" name="setUp" is-config="true" duration-ms="8697" started-at="2021-12-15T20:03:19 GMT+05:30" finished-at="2021-12-15T20:03:28 GMT+05:30">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTestPS()[pri:0, instance:tests.TC_LoginTestPS_001@1649b0e6]" name="loginTestPS" duration-ms="63507" started-at="2021-12-15T13:17:06 GMT+05:30" finished-at="2021-12-15T13:18:09 GMT+05:30">
+        <test-method status="PASS" signature="HOMEPS()[pri:0, instance:tests.TC_HomeSolPS_002@1649b0e6]" name="HOMEPS" duration-ms="373" started-at="2021-12-15T20:03:28 GMT+05:30" finished-at="2021-12-15T20:03:28 GMT+05:30">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTestPS -->
-        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:tests.TC_LoginTestPS_001@1649b0e6]" name="screenshot" is-config="true" duration-ms="2" started-at="2021-12-15T13:18:09 GMT+05:30" finished-at="2021-12-15T13:18:09 GMT+05:30">
+        </test-method> <!-- HOMEPS -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:tests.TC_HomeSolPS_002@1649b0e6]" name="screenshot" is-config="true" duration-ms="1" started-at="2021-12-15T20:03:28 GMT+05:30" finished-at="2021-12-15T20:03:28 GMT+05:30">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTestPS status=SUCCESS method=TC_LoginTestPS_001.loginTestPS()[pri:0, instance:tests.TC_LoginTestPS_001@1649b0e6] output={null}]]]>
+                <![CDATA[[TestResult name=HOMEPS status=SUCCESS method=TC_HomeSolPS_002.HOMEPS()[pri:0, instance:tests.TC_HomeSolPS_002@1649b0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- tests.TC_HomeSolPS_002 -->
+    </test> <!-- chrome -->
+    <test name="Firefox" duration-ms="25229" started-at="2021-12-15T20:03:28 GMT+05:30" finished-at="2021-12-15T20:03:53 GMT+05:30">
+      <class name="tests.TC_LoginTestPS_001">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.TC_LoginTestPS_001@6a84a97d]" name="setUp" is-config="true" duration-ms="12558" started-at="2021-12-15T20:03:28 GMT+05:30" finished-at="2021-12-15T20:03:41 GMT+05:30">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTestPS()[pri:0, instance:tests.TC_LoginTestPS_001@6a84a97d]" name="loginTestPS" duration-ms="12668" started-at="2021-12-15T20:03:41 GMT+05:30" finished-at="2021-12-15T20:03:53 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestPS -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:tests.TC_LoginTestPS_001@6a84a97d]" name="screenshot" is-config="true" duration-ms="0" started-at="2021-12-15T20:03:53 GMT+05:30" finished-at="2021-12-15T20:03:53 GMT+05:30">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTestPS status=SUCCESS method=TC_LoginTestPS_001.loginTestPS()[pri:0, instance:tests.TC_LoginTestPS_001@6a84a97d] output={null}]]]>
               </value>
             </param>
           </params>
