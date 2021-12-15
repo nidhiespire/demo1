@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="test">
-	<test name="chrome" enabled="false">
+	<test name="chrome" enabled="true">
 		<parameter name="browser" value="chrome" />
 		<classes>
 		<class name="tests.TC_LoginTestPS_001" />
