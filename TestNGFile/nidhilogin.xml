@@ -7,9 +7,10 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="tests.TC_HomeSolPS_002" />
+           <class name="tests.TC_LoginTestPS_001" />
 		</classes>
 	</test>
-    <test name="Firefox" enabled="true">
+    <test name="Firefox" enabled="false">
 		<parameter name="browser" value="firefox" />
 		<classes>
 		<class name="tests.TC_LoginTestPS_001" />
